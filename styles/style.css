@@ -1,0 +1,136 @@
+html{
+  font-family: 'Rubik', sans-serif;
+  color: #ffff;
+  background-color: black;
+}
+
+/* Header */
+
+header{
+  width: 100%;
+  color: #ADADAD;
+}
+
+.div-ancores{
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  margin-left: 300px;
+}
+
+div a{
+  text-decoration: none;
+  color: #ffff;
+}
+
+.ancore-home{
+  color: #ADADAD;
+}
+
+.div-head{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-head h1{
+  color: #ffff;
+}
+
+.div-head>img{
+  width: 275px;
+  margin-bottom: 25px;
+  border-radius: 50px;
+  border: 3px solid #ADADAD
+}
+
+
+.div-icons{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  width: 60%;
+  height: 100px;
+}
+
+.div-icons img{
+  width: 40px;
+}
+
+/* Main */
+
+.div-about-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-about-me p{
+  width: 80%;
+}
+
+.div-my-habilities{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+.main-icons1, .main-icons2, .main-icons3, .main-icons4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.div-main-portafolio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-main-portafolio img{
+  padding: 40px;
+}
+
+/* Footer */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.div-footer div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+footer img{
+  width: 40px;
+  padding: 20px;
+  border: 1px solid #ADADAD;
+  border-radius: 40px;
+}
+
+footer p{
+  color: #ADADAD;
+}
