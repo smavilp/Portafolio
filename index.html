@@ -4,90 +4,115 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Document</title>
 </head>
 <body>
   <header>
     <nav>
-      <div class="div-ancores">
-      <a href="#" class="ancore-home">Home</a>
-      <a href="#">Acerca de mi</a>
-      <a href="#">Mis habilidades</a>
-      <a href="#">Experiencia</a>
-      <a href="#">Portafolio</a>
-      <a href="#">Contacto</a>
-    </div>
+      <div id="nav-div-ancores">
+        <a href="#" class="desktop-body1">Home</a>
+        <a href="#" class="desktop-body2">Acerca de mí</a>
+        <a href="#" class="desktop-body2">Mis habilidades</a>
+        <a href="#" class="desktop-body2">Experiencia</a>
+        <a href="#" class="desktop-body2">Portafolio</a>
+        <a href="#" class="desktop-body2">Contacto</a>
+      </div>
+      <span  class="material-symbols-outlined" id="nav-icon-mobile">
+        menu
+      </span>
     </nav>
-  <div class="div-head">
-    <img src="./styles/Retrato.jpg" alt="imagen retrato">
-    <h2>Hola, soy Sebastián</h2>
-    <h1>Diseñador y desarrollador web</h1>
-    <div class="div-icons">
-      <img src="./Portafolio 7/Íconos/linkedin.svg" alt="linkedin icon">
-      <img src="./Portafolio 7/Íconos/instagram.svg" alt="instagram icon">
-      <img src="./Portafolio 7/Íconos/twitter.svg" alt="twitter icon">
+    <div id="header-div">
+      <img id="portrait" src="./styles/retrato.jpg" alt="portrait image">
+      <h2 class="desktop-subtitle">Hola, soy Sebastián</h2>
+      <h1 class="desktop-title">Diseñador y desarrollador web</h1>
+      <a href="#"><img id="linkedin-icon" src="./Portafolio 7/Íconos/linkedin.svg" alt="linkedin icon"></a>
     </div>
-  </div>
   </header>
   <main>
-    <div class="div-about-me">
-      <h2>Acerca de mí</h2>
-      <p>Soy un historiador que, estudiando lógica, se interezó por la programación. Me caracterizo por la resolución eficiente de problemas y por agregar valor a los productos, siempre haciendo uso de buenas prácticas y del "clean code". Además, hago un doctorado en Ciencias Humanas y Sociales y me encanta bailar salsa. </p>
-    </div>
-    <div class="div-my-habilities">
-      <h2>Mis habilidades</h2>
-      <div class="div-main-icons">
-        <div class="main-icons1">
-          <img src="Portafolio 7/Íconos/mobile.svg" alt="mobile icon">
-          <p>Mobile app design</p>
-        </div>
-        <div class="main-icons2">
-          <img src="./Portafolio 7/Íconos/motion.svg" alt="motion icon">
-          <p>Motion Design</p>
-        </div>
-        <div class="main-icons3">
-          <img src="./Portafolio 7/Íconos/material.svg" alt="material icon">
-          <p>Creación de sistemas de diseño</p>
-        </div>
-        <div class="main-icons4">
-          <img src="./Portafolio 7/Íconos/web.svg" alt="web icon">
-          <p>Desarrollo Web</p>
+    <section>
+      <div id="section-about-me-div">
+        <h3 class="desktop-subsection">Acerca de mí</h3>
+        <p class="desktop-body1">Soy un historiador que, estudiando lógica, se interezó por la programación. Me caracterizo por la resolución eficiente de problemas y por agregar valor a los productos, haciendo siempre uso de buenas prácticas y del "clean code". Mi formación humanística me ha permitido desarrollar habilidades blandas como el pensamiento crítico, la comunicaión efectiva y la resolución de conflictos. Además, hago un doctorado en Ciencias Humanas y Sociales y me encanta bailar salsa.</p>
+      </div>
+    </section>
+    <section>
+      <div id="section-my-habilities-div">
+        <h3 class="desktop-subsection">Mis habilidades</h3>
+        <div id="section-my-habilities-icons-div">
+          <div id="section-my-habilities-icon1-div">
+            <div id="icon1-img"><img id="icon1" src="./Portafolio 7/Íconos/mobile.svg" alt="mobile icon"></div>
+            <p class="desktop-body2">Mobile app desing</p>
+          </div>
+          <div id="section-my-habilities-icon2-div">
+            <div id="icon2-img"><img id="icon2" src="./Portafolio 7/Íconos/motion.svg" alt="motion icon"></div>
+            <p class="desktop-body2">Motion desing</p>
+          </div>
+          <div id="section-my-habilities-icon3-div">
+            <div id="icon3-img"><img id="icon3" src="./Portafolio 7/Íconos/material.svg" alt=""></div>
+            <p class="desktop-body2">Creación de sistemas de diseño</p>
+          </div>
+          <div id="section-my-habilities-icon4-div">
+            <div id="icon4-img"><img id="icon4" src="./Portafolio 7/Íconos/web.svg" alt=""></div>
+            <p class="desktop-body2">Desarrollo web</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="div-main-experience">
-      <h2>Experiencia</h2>
-    </div>
-    <div class="div-main-portafolio">
-      <h2>Portafolio</h2>
-      <div>
-        <img src="./Portafolio 7/Imágenes/ejemplo 1.png" alt="proyect1">
-        <img src="./Portafolio 7/Imágenes/ejemplo 2.png" alt="proyect2">
-        <img src="./Portafolio 7/Imágenes/ejemplo 3.png" alt="proyect3">
+    </section>
+    <section>
+      <div id="section-experience-div">
+        <h3 id="section-experience-grid-element1" class="desktop-subsection">Experience</h3>
+        <p id="section-experience-grid-element2" class="desktop-body1">2016-2018</p>
+        <div id="section-experience-grid-element3">
+          <p class="desktop-body3">Visual designer</p>
+          <p class="desktop-body1">Wizeline</p>
+        </div>
+        <hr id="section-experience-grid-element4">
+        <p id="section-experience-grid-element5" class="desktop-body1">2018-2019</p>
+        <div id="section-experience-grid-element6">
+          <p class="desktop-body3">Product designer</p>
+          <p class="desktop-body1">Microsoft</p>
+        </div>
+        <hr id="section-experience-grid-element7">
+        <p id="section-experience-grid-element8"class="desktop-body1">2019-2021</p>
+        <div id="section-experience-grid-element9">
+          <p class="desktop-body3">UI Engineer</p>
+          <p class="desktop-body1">Google</p>
       </div>
-    </div>
+    </section>
+    <section>
+      <div id="section-portafolio-div">
+        <h3 class="desktop-subsection">Portafolio</h3>
+        <div id="potafolio-img-div">
+          <img src="./Portafolio 7/Imágenes/ejemplo 1.png" alt="portafolio image1">
+          <img src="./Portafolio 7/Imágenes/ejemplo 2.png" alt="portafolio image2">
+          <img src="./Portafolio 7/Imágenes/ejemplo 3.png" alt="portafolio image3">
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
-    <h2>Contacto</h2>
-    <div class="div-footer">
-      <div>
-        <div class="div-footer-phone">
-          <img src="./Portafolio 7/Íconos/phone.svg" alt="phone icon">
-          <p>Número de celular</p>
-          <p>+57 3054039905</p>
+    <div id="footer-div">
+      <h3 class="desktop-subsection">Contacto</h3>
+      <div id="footer-icons-div">
+        <div id="footer-icon1-div">
+          <img id="phone-icon" src="./Portafolio 7/Íconos/phone.svg" alt="phone icon">
+          <p class="desktop-body4">Número de celular</p>
+          <p class="desktop-body1">+573054039905</p>
+        </div>
+        <div id="footer-icon2-div">
+          <img id="mail-icon" src="./Portafolio 7/Íconos/mail 1.svg" alt="mail icon">
+          <p class="desktop-body4">Email</p>
+          <p class="desktop-body1">smavilp@gmail.com</p>
         </div>
       </div>
-      <div class="div-footer-email">
-        <img src="./Portafolio 7/Íconos/mail 1.svg" alt="mail icon">
-        <p>Email</p>
-        <p>smavilp@gmail.com</p>
-      </div>
+      <p class="desktop-body1">Hecho con <span class="material-symbols-outlined" id="heart-icon">favorite</span> en Academlo</p>
     </div>
-    <p>Hecho en Academlo con amor</p>
   </footer>
 </body>
 </html>
