@@ -331,6 +331,20 @@ margin-right: 100px;
   justify-self: start;
 }
 
+#section-experience-grid-element2, #section-experience-grid-element5{
+  align-self: end;
+}
+
+#section-experience-grid-element3, #section-experience-grid-element6, #section-experience-grid-element9{
+  padding-left: 125px;
+}
+
+@media(max-width:480px){
+  #section-experience-grid-element3, #section-experience-grid-element6, #section-experience-grid-element9{
+    padding-left: 0px;
+  }
+}
+
 /* Section Portafolio */
 
 #section-portafolio-div{
@@ -393,3 +407,6 @@ margin-right: 100px;
   }
 }
 
+#footer-div>p{
+  margin-top: 40px;
+}
