@@ -35,7 +35,7 @@ img{
 
 .nav{
   width: 100%;
-  background-color:black;
+  background-color:transparent;
   height: 4em;
   display: flex;
   flex-direction: row;
@@ -56,17 +56,30 @@ img{
 }
 
 .menu{
-  height: 100vh;
+  height: 102vh;
   width: 100%;
   position:fixed;
   top: 0;
   right: 0;
-  z-index: 1;
+  z-index: 2;
   background-color: grey;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  padding: 3em;
+  gap: 3.1em;
+  border: 50px solid black;
+  transition: 1s;
+}
+
+.menu__btn{
+  width: 2em;
+}
+
+.menu__a{
+  color: black;
+  font-size: 1.2em;
 }
 
 
@@ -348,5 +361,5 @@ main{
 }
 
 .hidden{
-  display: none;
+  right:-100%;
 }
