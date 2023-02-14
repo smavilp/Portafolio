@@ -56,12 +56,12 @@ img{
 }
 
 .menu{
-  min-height: 102vh;
+  min-height: 105vh;
   width: 100%;
   position:fixed;
   top: 0;
   right: 0;
-  z-index: 2;
+  z-index: 3;
   background-color: grey;
   display: flex;
   flex-direction: column;
