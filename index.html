@@ -11,9 +11,20 @@
 </head>
 <body>
     <nav class="nav">
-        <button class="nav__btn">
+        <button class="nav__btn" id="open-menu-btn" >
             <img class="nav__img" src="./assets/images/icons/circle-menu.png" alt="abrir menu" loading="lazy">
         </button>
+        <div class="nav__div menu hidden" id="menu">
+            <button class="menu__btn" id="close-menu-btn">
+                <img class="menu__img" src="./assets/images/icons/close.png" alt="">
+            </button>
+            <a class="menu__a" href="">Home</a>
+            <a class="menu__a" href="">Habilidades</a>
+            <a class="menu__a" href="">Proyectos</a>
+            <a class="menu__a" href="">Formación</a>
+            <a class="menu__a" href="">Acerca de mí</a>
+            <a class="menu__a" href="">Contacto</a>
+        </div>
     </nav>
     <header class="header">
         <img class="header__img" src="./assets/images/retrato.jpg" alt="" loading="lazy">
@@ -32,7 +43,7 @@
             </a>
         </div>
     </header>
-    <div class="separator__inter">
+    <div class="separator--inter">
         <img class="separator__img" src="./assets/images/icons/circle-menu.png" alt="">
     </div>
     <main class="main">
@@ -63,7 +74,7 @@
                 <span class="skills__span">Git</span>
             </div>
         </section>
-        <div class="separator__inter">
+        <div class="separator--inter">
             <img class="separator__img" src="./assets/images/icons/circle-menu.png" alt="">
         </div>
         <section class="main__section projects">
@@ -87,7 +98,7 @@
                     </a>
                 </div>
             </article>
-            <div class="separator__intra">//</div>
+            <div class="separator--intra">//</div>
             <article class="projects__article article">
                 <img class="article__img" src="./assets/images/projects/project-15.png" alt="">
                 <div class="article__div--layer">
@@ -107,7 +118,7 @@
                     </a>
                 </div>
             </article>
-            <div class="separator__intra">//</div>
+            <div class="separator--intra">//</div>
             <article class="projects__article article">
                 <img class="article__img" src="./assets/images/projects/project-9.png" alt="">
                 <div class="article__div--layer">
@@ -128,7 +139,7 @@
                 </div>
             </article>
         </section>
-        <div class="separator__inter">
+        <div class="separator--inter">
             <img class="separator__img" src="./assets/images/icons/circle-menu.png" alt="">
         </div>
         <section class="main__section formation">
@@ -138,23 +149,23 @@
                 <span class="formation__span formation__span--year">2021</span>
                 <a class="formation__a" href="" title="">Ver certificado</a>
             </div>
-            <div class="separator__intra">//</div>
+            <div class="separator--intra">//</div>
             <div class="formation__div">
                 <span class="formation__span">Fundamentos en HTML, CSS y JavasCript</span>
                 <span class="formation__span formation__span--year">2023</span>
                 <a class="formation__a" href="" title="">Ver certificado</a>
             </div>
         </section>
-        <div class="separator__inter">
+        <div class="separator--inter">
             <img class="separator__img" src="./assets/images/icons/circle-menu.png" alt="">
         </div>
         <section class="main__section about">
             <h2 class="section__h2">Acerca de mí</h2>
             <p class="about__p">
-                Soy un historiador que, estudiando lógica, se interezó por la programación. Realizo un bootcamp Web Full Stack en Academlo y complemento mis estudios de manera autodidacta con cursos de diferentes plataformas. Disfruto desarrollar mis habilidades en programación asumiendo la resolución de problemas lógicos como retos intelectuales y explorando mis cualidades estéticas en el maquetado y estilado de páginas web.Tengo especial interés en escribir código de manera eficiente, legible y elegante; por eso las buenas prácticas y el "clean code" son criterios fundamentales para mí.  Tengo habilidades en HTML, CSS, JavaScript y Git. Actualmente estoy aprendiendo BEM, Sass y React. Además, mi formación humanística me ha permitido desarrollar habilidades blandas como el pensamiento crítico, la comunicación efectiva y la resolución de conflictos. Me gustaría empezar mi carrera como programador. 
+                Soy un historiador que, estudiando lógica, se interezó por la programación. Realizo un bootcamp Web Full Stack en Academlo y complemento mi estudio de manera autodidacta con cursos de diferentes plataformas. Disfruto desarrollar mis habilidades en programación asumiendo la resolución de problemas lógicos como retos intelectuales y explorando mis cualidades estéticas en el maquetado y estilado de páginas web.Especialmente, me interesa escribir código de manera eficiente, legible y elegante; por eso las buenas prácticas y el "clean code" son criterios fundamentales para mí. Tengo habilidades en HTML, CSS, JavaScript y Git. Actualmente estoy aprendiendo BEM, Sass y React. Además, mi formación humanística me ha permitido desarrollar habilidades blandas como el pensamiento crítico, la comunicación efectiva y la resolución de conflictos. Me gustaría empezar mi carrera como programador. 
             </p>
         </section>
-        <div class="separator__inter">
+        <div class="separator--inter">
             <img class="separator__img" src="./assets/images/icons/circle-menu.png" alt="">
         </div>
     </main>
@@ -175,5 +186,6 @@
             <form action=""></form>
         </div>
     </footer>
+<script src="./assets/js/main.js"></script>
 </body>
 </html>
