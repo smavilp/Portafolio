@@ -88,6 +88,7 @@ body{
   
   .nav__a{
     color: var(--thirdColor);
+    transition: .5s;
   }
   
   .nav__a:hover{
@@ -260,16 +261,15 @@ body{
 }
 
 .skills__div{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   gap: 1.5em;
 }
 
-@media screen and (min-width:500px){
+@media screen and (min-width:700px){
   .skills__div{
-    flex-direction: row;
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
@@ -290,6 +290,10 @@ body{
 .skills__img{
   height: 2.75em;
   width: 2.75em;
+}
+
+.skills__svg{
+  fill: white;
 }
 
 .skills__span{
@@ -442,6 +446,15 @@ body{
 .article__img--github{
   height: 2.5em;
   width: 2.5em;
+  transition: .5s;
+}
+
+.article__img--github:hover{
+  transform: rotate(5deg);
+  padding: .25em;
+  border: 1px solid var(--firstColor);
+  border-radius: 20%;
+  cursor: pointer;
 }
 
 .projects__a{
