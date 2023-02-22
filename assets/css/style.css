@@ -386,10 +386,6 @@ body{
   object-position: 0px -100px;
 }
 
-.article__img--article3{
-  object-position: 0 -263.5px;
-}
-
 .article__div--layer{
   background-color: black;
   height: 15em;
@@ -724,4 +720,33 @@ body{
   .degree-body__img{
     max-width: 40em;
   }
+}
+
+/* FOUNDATIONS */
+
+.foundations-body{
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+}
+
+.foundations-body__img{
+  max-width: 65em;
+}
+
+.foundations-body__a{
+  border: 2px solid var(--secondColor);
+  color: var(--firstColor);
+  padding: .5em;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.foundations-body__a:hover{
+  transform: scale(1.05);
 }
