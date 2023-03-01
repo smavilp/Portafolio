@@ -686,6 +686,10 @@ body{
   }
 }
 
+.projects-main__article{
+  max-width: 20em;
+}
+
 .projects-main__h1{
   color: white;
   font-size: 3em;
